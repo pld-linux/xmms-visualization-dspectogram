@@ -1,5 +1,5 @@
-Summary:	Blur Scope MAX
-Summary(pl):	Blur Scope MAX
+Summary:	Dual Spectogram
+Summary(pl):	Podwójny Spektogram
 Name:		xmms-visualization-dspectogram
 Version:	1.2
 Release:	1
