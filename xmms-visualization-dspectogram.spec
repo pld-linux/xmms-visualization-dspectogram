@@ -30,14 +30,12 @@ Plugin Podwójnej Analizy Spektralnej dla XMMS.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/`%{_bindir}/xmms-config --visualization-plugin-dir`/
-install -d $RPM_BUILD_ROOT/`%{_bindir}/xmms-config --data-dir`/
+install -d $RPM_BUILD_ROOT/`%{_bindir}/xmms-config --visualization-plugin-dir`/ \
+	$RPM_BUILD_ROOT/`%{_bindir}/xmms-config --data-dir`/
 
 %{__make} install \
 	INSTALL-DIR=$RPM_BUILD_ROOT/`%{_bindir}/xmms-config --visualization-plugin-dir`/ \
 	XMMS_DATADIR=$RPM_BUILD_ROOT/`%{_bindir}/xmms-config --data-dir`/
-
-gzip -9nf Change* README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
