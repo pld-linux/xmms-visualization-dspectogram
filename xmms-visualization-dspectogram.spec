@@ -2,7 +2,7 @@ Summary:	Dual Spectogram
 Summary(pl):	Podwójny Spektogram
 Name:		xmms-visualization-dspectogram
 Version:	1.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://hem.passagen.se/joakime/dspectogram-%{version}.tar.gz
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Change* README
 %attr(755,root,root) %{_libdir}/xmms/*/*.so
 %{_datadir}/xmms/*
