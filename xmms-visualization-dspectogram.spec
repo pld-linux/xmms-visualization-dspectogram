@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Dual Spectogram - Dual Spectral Histogram plugin for XMMS.
 
 %description -l pl
-Plugin Podwójnen Analizy Spektralnej dla XMMS.
+Plugin Podwójnej Analizy Spektralnej dla XMMS.
 
 %prep
 %setup -q -n dspectogram-%{version}
