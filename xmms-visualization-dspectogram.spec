@@ -1,5 +1,5 @@
 Summary:	Dual Spectogram
-Summary(pl.UTF-8):   Podwójny Spektogram
+Summary(pl.UTF-8):	Podwójny Spektogram
 Name:		xmms-visualization-dspectogram
 Version:	1.2.1
 Release:	3
